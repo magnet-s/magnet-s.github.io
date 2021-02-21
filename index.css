@@ -1,0 +1,94 @@
+.form,
+.greetings{
+    display:none;
+    
+}
+
+.showing{
+    display:block;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.js-askWhoareyou > input {
+    border : none;
+    font-size: x-large;
+    background: none;
+    
+
+}
+
+.bgImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.wrapper {
+    display :flex;
+    flex-direction: column;
+    
+    align-items: center;
+    color : white;
+}
+.wrapper > .js-clock > h1{
+    font-size: 110px;
+}
+
+.wrapper > .js-clock > h4 {
+    color : white;
+    font-size: 60px;
+}
+
+.js-toDo {
+    width: 40vh;
+    height: 5vh;
+    
+}
+
+.js-toDoInput{
+    padding-left: 110px;
+    font-size: 40px;
+    background: none;
+    border: none;
+
+}
+
+::placeholder {
+    color: white;
+}
+
+.js-toDoList>li {
+    list-style: none;
+}
+
+.js-toDoList>li>span{
+    font-size: 50px;
+    
+}
+
+.js-toDoList > li > button {
+    font-size: larger;
+    
+}
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+main > span {
+    font-size: xx-large;
+    color: white;
+    display: flex;
+    justify-content: right;
+}
+table {
+    color : white;
+
+}
